@@ -3,11 +3,340 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.heardertop {
+  height: 20px;
+  width: 100%;
+  background-color: rgb(66, 66, 252);
+  margin-top: 0px;
+}
+.oddimg {
+  height: 150px;
+  width: 200px;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+/* hedmain*/
+.hedmain {
+  display: flex;
+  align-items: center;
+  gap: 590px;
+  height: 150px;
+  background-color: rgb(251, 240, 225);
+
+}
+.nav {
+  display: flex;
+  gap: 60px;
+  color: orange;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.home {
+  color: black;
+}
+/*  hedtwo */
+.hedtwo {
+  display: flex;
+  gap: 50px;
+  background-color: rgb(251, 240, 225);
+  height: 550px;
+}
+.oddimg1 {
+  height: 500px;
+  align-items: end;
+}
+.unlock h2 {
+  font-size: 40px;
+  width: 700px;
+  line-height: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 500;
+}
+.unlock h2 span {
+  font-weight: 1000;
+}
+.unlock {
+  margin-top: 190px;
+  margin-left: 150px;
+}
+button {
+  height: 40px;
+  width: 250px;
+  border-radius: 20px;
+  background-color: rgb(244, 177, 96);
+  border: none;
+}
+
+/* inspiring */
+.inspiring {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(166, 42, 42);
+  height: 250px;
+  font-size: 40px;
+  line-height: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.inspiring h3 {
+  font-weight: 100;
+  margin-left: 100px;
+}
+.attitude  {
+  margin-top: -50px;
+  align-items: center;
+  justify-content: center;
+}
+.work h3 {
+  margin-left: 190px;
+}
+.bold {
+  margin-bottom: -60px;
+}
+.work {
+  margin-top: -50px;
+}
+/* scolclient */
+
+.scolclient {
+  background-color:black;
+  height: 600px;
+  width: 900px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 300px;
+  margin-top: -100px;
+}
+/* adding */
+.adding1 {
+  height: 600px;
+  margin-top: -20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.tophed {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 70px;
+}
+.tophed h1 span {
+  font-style: italic;
+  font-size: 60px;
+  font-weight: 100;
+}
+.botmhed {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 20px;
+  line-height: 10px;
+}
+/* Spiritpag */
+
+.Spiritpag1 {
+  display: flex;
+  gap: 100px;
+  background-color: rgb(212, 212, 219);
+  border: 2px black;
+  height: 600px;
+}
+.threepic  {
+  height: 500PX;
+}
+.picdisc {
+  margin-top: 150px;
+  line-height: 20px;
+  color: white;
+  font-size: 22px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 100;
+}
+#picdisc1 {
+
+  margin-top: 10px;
+}
+
+/* passtclient */
+
+.passtclient1 {
+  height: 600px;
+  margin-top: 0px;
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(251, 235, 213);
+}
+
+.pasthed {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 20px;
+  font-family: sans-serif;
+  font-size: 25px;
+  line-height: 10px;
+  font-weight: 10;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.pastclient1 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+  color: rgb(220, 49, 100);
+  font-size: 18px;
+}
+.lastdesc {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size:15px ;
+  line-height: 4px;
+  margin-top: 60px;
+}
+
+/* projecthed */
+
+
+
+
+/* projectpic */
+.projectpic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  background-color: rgb(216, 220, 224);
+  height: 490px;
+  margin-top: -80px;
+}
+.projectphoto1 {
+  height: 300px;
+  width: 300px;
+}
+.projectphoto1 button {
+  background-color: transparent;
+  border: 2px solid black;
+  position: absolute;
+  margin-left: -275px;
+  margin-top: 140px;
+}
+.projectphoto2 button {
+  background-color: transparent;
+  border: 2px solid rgb(251, 251, 251);
+  position: absolute;
+  margin-left: -275px;
+  margin-top: 140px;
+  color: white;
+}
+.projectphoto3 button {
+  background-color: transparent;
+  border: 2px solid black;
+  position: absolute;
+  margin-left: -275px;
+  margin-top: 140px;
+}
+.projectphoto2 {
+  height: 300px;
+  width: 300px;
+}
+.projectphoto3 {
+  height: 300px;
+  width: 300px;
+}
+
+/* pichedlin */
+
+.pichedlin {
+
+}
+.piconly1 {
+  margin-top: -250px;
+  margin-left:200px;
+  color: white;
+}
+.pichedl {
+  height: 550px;
+  width: 100%;
+}
+.piconly1 button {
+  background-color: rgb(223, 183, 129);
+}
+
+/* pinklin */
+.pinklin {
+  background-color:rgb(242, 10, 87);
+  height: 50px;
+  width: 100%;
+  margin-top: 55px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.05px;
+  font-weight: 100;
+  color: white;
+  font-size: 10px;
+}
+.pinklin h3 {
+ 
+}
+/*futer*/
+.futerlin {
+  display: flex;
+}
+
+.nav2 {
+  color: orange;
+  margin-left: 190px;
+  margin-top: 20px;
+  line-height:50px;
+  font-size: 13px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.MAILSYMBL {
+  display: flex;
+  gap: 20px;
+  font-size: 30px;
+  color: rgb(255, 94, 66);
+  align-items: center;
+  justify-content: center;
+}
+
+.NAV2DESC {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 14px;
+  margin-left: 750px;
+  margin-top: 100px;
+  height: 150px;
+}
+
+.MAILLIN h3 {
+  font-weight: 400;
+}
+
+/* lastlin */ 
+
+.lastlin {
+  background-color: rgb(52, 52, 244);
+  height: 45px;
+  width: 100%;
+  margin-top: 55px;
+  font-size: 7px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.05px;
+  font-weight: 100;
+}
+
+.Pichedli1 {
+  height: 600px;
+  background-color: rgb(215, 232, 232);
 }

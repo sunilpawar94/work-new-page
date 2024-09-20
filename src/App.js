@@ -1,24 +1,43 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Headertop from './Headtop.jsx';
+import Hedmain from './Hedmain.jsx';
+import Headtwo from './Headtwo.jsx';
+import Inspiring from './Inspiring.jsx';
+import Scolclient from './Scolclient.jsx';
+import Adding from './Adding.jsx';
+import Spiritpag from './Spiritpag.jsx';
+import Passtclient from './Passtclient.jsx'
+import Projecthed from './Projecthed.jsx';
+import Projepic from './Projepic.jsx';
+import Pichedli from './Pichedli.jsx';
+import Pinklin from './Pinklin.jsx';
+import Futerlin from './Futerlin.jsx';
+import Lastlin from './Lastlin.jsx';
+import About from "./pages/about";
+import Contact from "./pages/contact";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Headertop/>
+      <Hedmain/>
+      
+      <Inspiring/>
+      <Scolclient/>
+      <Adding/>
+      <Spiritpag/> 
+      <Passtclient/>
+      <Projecthed/>
+      <Projepic/>
+      <Pichedli/>
+      <Pinklin/>
+      <Futerlin/>
+      <Lastlin/>
+      
     </div>
+   
   );
 }
 
